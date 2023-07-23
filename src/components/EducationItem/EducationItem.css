@@ -1,0 +1,62 @@
+.education-item {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #EFF3F4;
+    margin: 13px;
+    padding: 12px;
+    min-width: 305px;
+    border-radius: 12px;
+}
+@media screen and (min-width:768px) {
+    .education-item{
+        width: 444px;
+    }
+    
+}
+.dark .education-item{
+    background-color:#0C0B33 ;
+}
+
+.education-img{
+    height: 80px;
+    margin-right: 12px; 
+}
+
+
+.education-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.education-year{
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin-bottom: 5px
+}
+@media screen and (min-width:768px){
+    .education-year{
+        font-size: 18px;
+    } 
+}
+.dark .education-year{
+    color: #1D9BF0; 
+}
+.light .education-year{
+    color: #1D9BF0;
+}
+.education-name{
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin: 3px;
+}
+
+.dark .education-name{
+    color: #fff;
+}
+.light .education-name{
+    color: black;
+}

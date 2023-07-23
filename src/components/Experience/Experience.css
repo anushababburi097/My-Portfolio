@@ -1,0 +1,29 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.experience-heading{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #1D9BF0;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media screen and (min-width:768px){
+    .experience-heading{
+        font-size:39px;
+    }    
+}
+.dark-heading{
+    color: #1D9BF0;
+}
+.experience-item-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,50 @@
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-heading{
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 29px;
+  margin-top: 10px;
+  color: #1D9BF0;
+}
+@media screen and (min-width:768px){
+  .about-heading{
+    font-size: 39px;
+  } 
+}
+.headingColor{
+  color: #0078c7;
+}
+.about-description{
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+  padding: 22px;
+  animation: 0.3s fade-up-animation ease;
+  opacity: 0;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+@keyframes fade-up-animation {
+  0%{
+    opacity: 0;
+    right: -150px;
+  }
+  100%{
+    opacity: 1;
+    right: 0;
+  }
+}
+@media screen and (min-width:768px){
+  .about-description{
+    padding: 55px;
+    width: 70%;
+  }
+}
