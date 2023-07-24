@@ -11,10 +11,6 @@ const Home = () => {
   const buttonClass=isDarkTheme? 'button-dark':'button-light'
   const iconClass=isDarkTheme? 'github-dark':''  
 
-  const openResume = () => {
-   // Function to open the resume goes here
-    window.open('https://docs.google.com/document/d/1Glj4Z1ARcIv_vXbYo0SaoUJ134drzmuE77C30GQLBPM/edit?usp=sharing', '_blank');
-  };
 
   return (
     <div className={`home ${themeClass}`}>
@@ -23,7 +19,7 @@ const Home = () => {
       <h1 className={`home-name ${nameClass}`} data-aos-delay="200" data-aos="fade-right">Babburi Anusha</h1>
       <p className='home-description' data-aos="fade-left">I am Anusha Babburi, a passionate programmer in my daily life and a quick learner with a self-learning attitude. I love exploring new technologies and solving problems.</p>
      <div className='btn-container'>
-     <button className= {`home-button ${outlineClass}`} onClick={openResume}>Downloard CV</button>
+     <button className= {`home-button ${outlineClass}`} >Downloard CV</button>
       <button  className={`home-button buttonClass ${buttonClass}`}>Contact</button>
      </div>
      <div className="social-icons-container">
